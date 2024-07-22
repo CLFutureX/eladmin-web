@@ -58,6 +58,20 @@ export const constantRouterMap = [
       }
     ]
   }
+  // },{
+  //   path: '/userManager',
+  //   component: Layout,
+  //   hidden: false,
+  //   // redirect: 'noredirect',
+  //   children: [
+  //     {
+  //       path: 'center',
+  //       component: (resolve) => require(['@/views/system/user/center'], resolve),
+  //       name: '用户信息管理',
+  //       meta: { title: '用户信息管理' }
+  //     }
+  //   ]
+  // }
 ]
 
 export default new Router({
